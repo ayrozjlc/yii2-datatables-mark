@@ -1,0 +1,39 @@
+{
+  "name": "ayrozjlc/yii2-datatables-mark",
+  "description": "AssetBundle for Search Datatables highlighting with mark.js",
+  "keywords": [
+    "yii2",
+    "asset",
+    "datatables",
+    "highlighting",
+    "mark js",
+    "yii2-datatables-mark"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/ayrozjlc/yii2-datatables-mark"
+  },
+  "authors": [
+    {
+      "name": "Jose Lopez Chavez(ayrozjlc)",
+      "email": "jlopez@tecnocen.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ayrozjlc\\datatablesmark\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "bower-asset/mark.js": "*",
+    "bower-asset/datatables.mark.js": "*",
+    "yiisoft/yii2": "2.0.*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
