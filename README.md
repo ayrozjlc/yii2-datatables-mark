@@ -4,7 +4,7 @@ AssetBundle for Search Datatables highlighting with mark.js
 
 ## Installation
 
-####Composer
+#### Composer
 
 ```
 composer require --prefer-dist "ayrozjlc/yii2-datatables-mark:*"
