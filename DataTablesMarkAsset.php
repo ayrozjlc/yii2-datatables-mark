@@ -13,8 +13,8 @@ class DataTablesMarkAsset extends AssetBundle
     public $sourcePath = '@bower/';
 
     public $js = [
-        'mark.js/dist/jquery.mark.js',
-        'datatables.mark.js/src/datatables.mark.js',
+        'mark.js/dist/jquery.mark.min.js',
+        'datatables.mark.js/src/datatables.mark.min.js',
     ];
 
     public $depends = [
